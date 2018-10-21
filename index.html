@@ -41,13 +41,13 @@
           <a class="js-scroll-trigger" href="#vision">Vision</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
-        </li>
-        <li class="sidebar-nav-item">
           <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
+          <a class="js-scroll-trigger" href="#services">Partners</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#team">Team</a>
         </li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@
       <div class="overlay"></div>
     </header>
 
-    <!-- About -->
+    <!-- Vision -->
     <section class="content-section bg-light" id="vision">
       <div class="container text-center">
         <div class="row">
@@ -75,16 +75,60 @@
       </div>
     </section>
 
-    <!-- Photos -->
-    <section class="content-section bg-light" id="photos">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <img src="./img/plasma_triplet.png" alt="plasma_triplet" width="628" height="328">
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0">Portfolio</h3>
+          <h2 class="mb-5">Recent Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stationary</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/plasma_triplet.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ice Cream</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/iter-chamber.png" alt="">
+            </a>
+          </div>
+          <!-- TODO: fix strawberries' scaling -->
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Strawberries</h2>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/fruit-loops.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Workspace</h2>
+                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/HBT-EP.png" alt="">
+            </a>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Services -->
     <section class="content-section bg-primary text-white text-center" id="services">
@@ -95,8 +139,8 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
+            <span class="logo-icon rounded-circle mx-auto mb-3">
+              <img class="img-fluid" src="img/logos/aps.jpeg" alt="">
             </span>
             <h4>
               <strong>Responsive</strong>
@@ -104,8 +148,8 @@
             <p class="text-faded mb-0">Looks great on any screen size!</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
+            <span class="logo-icon rounded-circle mx-auto mb-3">
+              <img class="img-fluid" src="img/logos/pppl.png" alt="">
             </span>
             <h4>
               <strong>Redesigned</strong>
@@ -113,8 +157,8 @@
             <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
           </div>
           <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
+            <span class="logo-icon rounded-circle mx-auto mb-3">
+              <img class="img-fluid" src="img/logos/iter.png" alt="">
             </span>
             <h4>
               <strong>Favorited</strong>
@@ -124,8 +168,8 @@
               Start Bootstrap!</p>
           </div>
           <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
+            <span class="logo-icon rounded-circle mx-auto mb-3">
+              <img class="img-fluid" src="img/logos/tae.png" alt="">
             </span>
             <h4>
               <strong>Question</strong>
@@ -146,73 +190,18 @@
       </div>
     </section>
 
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- Call to Action -->
     <section class="content-section bg-primary text-white">
       <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+        <h1 class="mb-4">Try it for yourself!</h1>
+        <div class="col-md-4 text-center">
+          <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
+        </div>
       </div>
     </section>
 
     <!-- Map -->
-    <section id="contact" class="map">
+    <section id="team" class="map">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
       <br/>
       <small>
